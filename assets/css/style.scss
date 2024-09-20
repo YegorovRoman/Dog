@@ -1,0 +1,247 @@
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.intro{
+    background: url('../img/duotone.svg') no-repeat center center / cover;
+    padding: 208px 0 400px 0;
+    &__title{
+        color: #fff;
+        font-size: 56px;
+        font-weight: 900;
+        font-family: Roboto;
+        max-width: 585px;
+    }
+    &__button{
+        background-color: #F2726F;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: Roboto;
+        max-width: 210px;
+        height: 48px;
+        padding: 17px 30px; 
+        border-radius: 8px;
+        margin-top: 42px;
+        a{
+            color: #fff;
+        }   
+    }
+}
+.dog{
+    margin-bottom: 180px;
+    &__wrap{
+        position: relative;
+        background-color: #5D62B5;
+        padding: 100px 87px 0 87px;
+        border-radius: 40px;
+        margin-top: -86px;
+    }
+    &__dots{
+        position: absolute;
+        top: -110px;
+        right: -70px;
+    }
+    &__subtitle{
+        color: #fff;
+        font-weight: 700;
+        font-family: Roboto;
+        font-size: 12px;
+        text-transform: uppercase;
+        &-box{
+            display: flex;
+            align-items: center;
+            margin-bottom: 33px;
+        }
+    }
+    &__title{
+        color: #fff;
+        font-size: 36px;
+        font-weight: 900;
+        font-family: Roboto;
+        max-width: 583px;
+        margin-bottom: 36px;
+    }
+    &__text{
+        font-weight: 500;
+        font-family: Roboto;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: -54px;
+    }
+    &__photo{
+        position: relative;
+        bottom: -120px;
+        & img{
+            border-radius: 40px;
+        }
+    }
+    &__blob{
+        position: absolute;
+        bottom: -140px;
+        left: 0;
+    }
+}
+.promises{
+    margin-top: 230px;
+    &__logo-text{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    }
+    &__logo-title{
+    width: 583px;
+    height: 134px;
+    margin-bottom: 26px;
+    }
+    &__title{
+        margin-top: 33px;
+        font-size: 36px;
+        font-weight: 900;
+        font-family: Roboto;
+    }
+    &__text{
+        color: #5D62B5;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: Roboto;
+    }
+    &__cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 122px;
+        &_title{
+            margin-bottom: 20px;
+            color: #F2726F;
+            font-size: 19px;
+            font-weight: 900;
+            font-family: Roboto;
+        }
+    }
+    &__card{
+        max-width: 324px;
+        display: flex;
+        gap: 23px;
+        &_text{
+            font-size: 16px;
+            font-weight: 400;
+            font-family: Roboto;
+        }
+    }
+}
+.block{
+    background-color: #29C3BE;
+    width: 100%;
+    height: 500px;
+    &__pic{
+        max-width: 744px;
+        max-height: 490px;
+        margin-top: 44px;
+        z-index: 3;
+    }
+    &__content{
+        display: flex;
+    }
+    &__text{
+        font-size: 36px;
+        color: #fff;
+        font-weight: 900;
+        font-family: Roboto;
+        margin-top: 112px;
+        margin-left: 72px;
+    }
+    &__button{
+        background-color: #F2726F;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: Roboto;
+        max-width: 210px;
+        height: 48px;
+        padding: 17px 30px; 
+        border-radius: 8px;
+        margin-top: 42px;
+        margin-left: 72px;
+        a{
+            color: #fff;
+        }   
+    }
+    &__tennis{
+        max-height: 136px;
+        margin-top: 113px;
+        margin-left: 32px;
+        z-index: 2;
+    }
+    &__blob{
+        position: absolute;
+        z-index: 2;
+        margin-top: -504px;
+    }
+    &__circles{
+        position: absolute;
+        z-index: 1;
+        margin-top: -380px;
+    }
+    &__line{
+        position: absolute;
+        z-index: 1;
+        margin-top: -504px;
+        left: 725px;
+    }
+    &__texts{
+        z-index: 2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
